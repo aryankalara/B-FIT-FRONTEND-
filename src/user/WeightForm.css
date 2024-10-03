@@ -1,0 +1,53 @@
+.weight-form-container {
+    width: 350px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .height-section, .weight-section, .goal-weight-section {
+    margin-bottom: 20px;
+  }
+  
+  .height-input, .weight-input {
+    width: 100px;
+    padding: 8px;
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  
+  .unit-toggle {
+    display: block;
+    color: #007bff;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .back-button, .next-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .back-button {
+    background-color: #f1f1f1;
+  }
+  
+  .next-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .next-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

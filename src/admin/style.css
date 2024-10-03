@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0vh;
+    background: #000;
+}
+
+nav {
+    position: relative;
+    width: 380px; /* Adjusted width to fit content properly */
+    height: 50px;
+    background: #222;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px; /* Adjusted padding to fit content properly */
+    z-index: 1; /* Ensures the text stays above the span */
+}
+
+nav span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px; /* Adjusted width */
+    height: 100%;
+    background: #8d1b1c; /* Adjusted background color for transparency */
+    border-radius: 8px;
+    transition: left 0.3s ease, width 0.3s ease;
+    z-index: 0; /* Ensures the span stays below the text */
+}
+
+nav a:nth-of-type(1):hover ~ span {
+    left: 0px;
+    width: 95px;
+}
+
+nav a:nth-of-type(2):hover ~ span {
+    left: 90px;
+    width: 80px;
+}
+
+nav a:nth-of-type(3):hover ~ span {
+    left: 170px;
+    width: 70px; /* Adjusted width */
+}
+
+nav a:nth-of-type(4):hover ~ span {
+    left: 250px;
+    width: 120px;
+}
+

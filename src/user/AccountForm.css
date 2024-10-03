@@ -1,0 +1,131 @@
+/* General container styles */
+.account-form-container {
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input section styling */
+  .input-section {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-section label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+  }
+  
+  .email-input, .password-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Password wrapper for toggle visibility */
+  .password-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .show-password-toggle {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #007bff;
+    padding: 0;
+  }
+  
+  .password-instruction {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  /* Privacy notice section */
+  .privacy-notice {
+    font-size: 12px;
+    color: #666;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .privacy-notice a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  /* Terms section */
+.terms-section {
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  .terms-label {
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .terms-label input {
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+  
+  .terms-label a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .terms-label a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Button section */
+  .submit-section {
+    margin-top: 20px;
+  }
+  
+  .continue-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .continue-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Hover effect for enabled button */
+  .continue-button:not(:disabled):hover {
+    background-color: #0056b3;
+  }
+  

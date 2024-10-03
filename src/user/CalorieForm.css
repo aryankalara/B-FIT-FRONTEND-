@@ -1,0 +1,80 @@
+.calorie-form-container {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sex-selection {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Add space between the radio buttons */
+    margin: 15px 0;
+  }
+  
+  .sex-selection label {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between the radio button and the text */
+    font-size: 14px;
+  }
+  
+  .help-link {
+    display: block;
+    color: #007bff;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+  
+  .dob-section, .country-section {
+    margin: 15px 0;
+  }
+  
+  .dob-section input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .country-section select {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .info-text {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .back-button, .next-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .back-button {
+    background-color: #f1f1f1;
+  }
+  
+  .next-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .next-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
