@@ -56,7 +56,7 @@ function App() {
         <ParallaxLayer offset={1} speed={0.25}>
           <Stext />
         </ParallaxLayer>
-        <ParallaxLayer offset={1.6} speed={0.25}>
+        <ParallaxLayer offset={1.8} speed={0.25}>
           <div id="button-container">
             <button id="start-button" onClick={change}>Start Today</button>
             <div id="login-container">
